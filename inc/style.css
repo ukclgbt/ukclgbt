@@ -28,6 +28,21 @@ body {
 	margin-bottom:0;
 	}
 
+/*** LOGOBANNER ***/
+.css-logobanner-img {
+	margin:50px auto 50px auto;}
+.css-logobanner-bg {
+  background: url(logobanner-bgflag-uploaded-2015-06-16-800x245.jpg) no-repeat center center fixed;
+  z-index: 1;
+  /*background: 50% 50% no-repeat;*/
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.css-logobanner-bg-inner {z-index:2;}
+/** /LOGOBANNER ***/
+
 /* LGBT BANNER */
 #style-lgbt-section {
 	width:16.6666666667%;
