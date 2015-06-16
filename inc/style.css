@@ -15,6 +15,16 @@
 .css-intro-descp{font-size:20px;}
 /** /INTRO ***/
 
+
+@media (max-width: 1199px){ /* xs, sm, md */
+	.css-intro-h1 {margin-top:23px;}
+	}
+
+@media (max-width: 991px){ /* xs, sm */
+	.css-intro-mainsection {text-align:center;}
+	.css-intro-h1 {margin-top:0;}
+	}
+
 /*** MAIN ***/
 body {
 	font-family:'Pontano Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -44,6 +54,13 @@ body {
 }
 .css-logobanner-bg-inner {z-index:2;}
 /** /LOGOBANNER ***/
+
+/*** GUIDELINES ***/
+.css-mediamentions-extra {
+	font-style:italic;
+	margin-left:20px;
+	margin-top:-4px;}
+/** /GUIDELINES ***/
 
 /* LGBT BANNER */
 #style-lgbt-section {
