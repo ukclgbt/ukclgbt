@@ -6,6 +6,7 @@
 ** with Bootstrap and future updates. */
 
 /*** INTRO ***/
+.css-intro-bg {background:#eee;}
 .css-intro-h1 {
 	font-size:55px;
 	font-weight:bold;
