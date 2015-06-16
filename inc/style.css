@@ -5,6 +5,14 @@
 ** added css styles to ensure no clashes 
 ** with Bootstrap and future updates. */
 
+/*** INTRO ***/
+.css-intro-h1 {
+	font-size:55px;
+	font-weight:bold;
+	margin-top:30px;/*38px*/}
+.css-intro-descp{font-size:20px;}
+/** /INTRO ***/
+
 /*** MAIN ***/
 body {
 	font-family:'Pontano Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -26,12 +34,12 @@ body {
 	float:left;
 	height:30px;
 	}
-.style-lgbt-1 {background:#DB2404;}
-.style-lgbt-2 {background:#F8641C;}
-.style-lgbt-3 {background:#F6F101;}
-.style-lgbt-4 {background:#3BB701;}
-.style-lgbt-5 {background:#0975D9;} /*#2A98FE*/
-.style-lgbt-6 {background:#7D3F92;} /*#3200A1*/
+.style-lgbt-1 {background:#e40303;}
+.style-lgbt-2 {background:#ff8c00;}
+.style-lgbt-3 {background:#ffed00;}
+.style-lgbt-4 {background:#008026;}
+.style-lgbt-5 {background:#004dff;} /*#2A98FE*/
+.style-lgbt-6 {background:#750787;} /*#3200A1*/
 
 /* */
 .style-bannerimage {
