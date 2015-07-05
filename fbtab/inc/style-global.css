@@ -1,0 +1,68 @@
+/*** University of Kent (UKC) LGBT+ Society ***/
+
+/* Note to developer: 
+** 'fbtab-' has been preprended to all/most 
+** custom added css styles to ensure no clashes 
+** with Bootstrap and future updates. */
+
+@media (max-width: 1199px){ /* xs, sm, md */
+	.css-intro-h1 {margin-top:23px;}
+	}
+
+@media (max-width: 991px){ /* xs, sm */
+	.css-intro-mainsection {text-align:center;}
+	.css-intro-h1 {margin-top:0;}
+	}
+
+/*** MAIN ***/
+html {width:810px;}
+body {
+	font-family:'Pontano Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:18px;
+	}
+#fbtab-row {width:100%;}
+
+/*** MAIN ***/
+h1 {margin-top:35px;
+	margin-bottom:35px;}
+#fbtab-img, #fbtab-desc, #fbtab-button {
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;}
+#fbtab-img {
+	margin-bottom:10px;}
+.fbtab-img-border {
+	border:1px solid #ccc;
+	border-radius:4px;}
+.fbtab-img-border img {
+	border-radius:3px;}
+.fbtab-btn-main{border-radius:4px;}
+#fbtab-logo {
+	width:220px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:40px 0 25px 0;}
+/** /MAIN ***/
+
+
+/*** LGBT BANNER ***/
+#fbtab-lgbt-section {
+	width:16.6666666667%;
+	float:left;
+	height:30px;
+	}
+.fbtab-lgbt-1 {background:#e40303;}
+.fbtab-lgbt-2 {background:#ff8c00;}
+.fbtab-lgbt-3 {background:#ffed00;}
+.fbtab-lgbt-4 {background:#008026;}
+.fbtab-lgbt-5 {background:#004dff;} /*#2A98FE*/
+.fbtab-lgbt-6 {background:#750787;} /*#3200A1*/
+/** /LGBT BANNER ***/
+
+/* */
+.fbtab-copyrighttext {
+	font-size:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+/* */
